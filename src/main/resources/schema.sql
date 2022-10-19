@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS TB_TIPO_CAMBIO  (
+    id INT AUTO_INCREMENT  PRIMARY KEY,
+    moneda_origen VARCHAR(250) NOT NULL,
+    moneda_destino VARCHAR(250) NOT NULL,
+    tipo_cambio DECIMAL(9,2)
+);

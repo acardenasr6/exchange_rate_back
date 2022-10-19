@@ -1,0 +1,16 @@
+## server config
+server:
+  servlet:
+    context-path: /acardenas
+  http2:
+    enabled: true
+
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    username: sa
+    password: james
+    url: jdbc:h2:file:./data/mybd
+    driver-class-name: org.h2.Driver
